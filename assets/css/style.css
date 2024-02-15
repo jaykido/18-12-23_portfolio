@@ -126,11 +126,19 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  height: 700px
 
+}
 .swiper-slide img {
   max-width: 100%; /* Ensure images don't exceed the width of their container */
   height: auto; /* Maintain the aspect ratio of the images */
+  
+}
+.controll img {
+  height: auto;
+  width: 700px;
+  background-size: contain;
+  
 }
 
 #header .social-links a:hover {
